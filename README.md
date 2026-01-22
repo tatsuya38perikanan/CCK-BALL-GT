@@ -1,6 +1,0 @@
-zmk-config for CCK_BALL (4x6)
-![白色成品+手托](https://github.com/user-attachments/assets/7b2834f0-ca09-4f8c-9fc1-12455f67ae44)
-![白色成品2](https://github.com/user-attachments/assets/7fe073d5-bb1c-4e42-b150-3521b4418ae0)
-![黑色成品1](https://github.com/user-attachments/assets/4a7023ca-07ca-4a63-9d32-9af96ff9c73f)
-![黑色成品2](https://github.com/user-attachments/assets/34d4351d-cbd9-4c82-a2e0-c7c9d28c5942)
-
