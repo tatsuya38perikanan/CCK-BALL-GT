@@ -1,1 +1,9 @@
+if SHIELD_CCK_BALL_LEFT || SHIELD_CCK_BALL_RIGHT
 
+config ZMK_KEYBOARD_NAME
+    default "WK CCK BALL 4x6"
+
+config ZMK_SPLIT
+    default y
+
+endif
