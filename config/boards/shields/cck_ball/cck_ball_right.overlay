@@ -51,7 +51,7 @@
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>;
 
-    // デバイスラベルを「trackball」に固定
+    // デバイスラベルを確実に定義
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
@@ -96,10 +96,11 @@
     };
 };
 
+// ここが重要：デバイス「trackball」をリスナーに紐付ける
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
-        device = <&trackball>; // ここで上記の trackball: を参照
+        device = <&trackball>;
     };
 };
 
