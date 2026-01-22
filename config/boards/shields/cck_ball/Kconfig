@@ -1,5 +1,0 @@
-config SHIELD_CCK_BALL_LEFT
-    def_bool $(shield_list_contains,cck_ball_left)
-
-config SHIELD_CCK_BALL_RIGHT
-    def_bool $(shield_list_contains,cck_ball_right)
